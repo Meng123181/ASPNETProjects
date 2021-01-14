@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30908.111
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServer", "BlazorServer\BlazorServer.csproj", "{A1320C46-A175-471E-9E4D-7C07974E170B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServer", "BlazorServer\BlazorServer.csproj", "{A1320C46-A175-471E-9E4D-7C07974E170B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWASM", "BlazorWASM\BlazorWASM.csproj", "{41C0A22B-3A3F-4225-BAB2-F389B4BFD1BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWASM", "BlazorWASM\BlazorWASM.csproj", "{41C0A22B-3A3F-4225-BAB2-F389B4BFD1BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibTest", "ClassLibTest\ClassLibTest.csproj", "{9E7ACAA4-346F-4084-BB29-DB2D9F66E369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibTest", "ClassLibTest\ClassLibTest.csproj", "{9E7ACAA4-346F-4084-BB29-DB2D9F66E369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{7FC99382-DE69-4D39-A7F6-05376D5E8B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{7FC99382-DE69-4D39-A7F6-05376D5E8B09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages", "RazorPages\RazorPages.csproj", "{D4B32821-E669-4C37-890B-F0BF4DD3F0F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPages", "RazorPages\RazorPages.csproj", "{D4B32821-E669-4C37-890B-F0BF4DD3F0F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorClassLibrary", "RazorClassLibrary\RazorClassLibrary.csproj", "{BFB30C59-17B2-436C-A43E-3C22F24621F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A1320C46-A175-471E-9E4D-7C07974E170B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -86,5 +85,23 @@ Global
 		{D4B32821-E669-4C37-890B-F0BF4DD3F0F5}.Release|x64.Build.0 = Release|Any CPU
 		{D4B32821-E669-4C37-890B-F0BF4DD3F0F5}.Release|x86.ActiveCfg = Release|Any CPU
 		{D4B32821-E669-4C37-890B-F0BF4DD3F0F5}.Release|x86.Build.0 = Release|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Debug|x64.Build.0 = Debug|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Debug|x86.Build.0 = Debug|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Release|x64.ActiveCfg = Release|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Release|x64.Build.0 = Release|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Release|x86.ActiveCfg = Release|Any CPU
+		{BFB30C59-17B2-436C-A43E-3C22F24621F9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1039DCD5-A615-4DD9-88A5-8D463110D7F3}
 	EndGlobalSection
 EndGlobal
